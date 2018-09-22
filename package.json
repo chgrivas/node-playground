@@ -4,7 +4,7 @@
   "description": "A node playground",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jasmine-node spec/greetSpec.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/chgrivas/node-playground/issues"
   },
-  "homepage": "https://github.com/chgrivas/node-playground#readme"
+  "homepage": "https://github.com/chgrivas/node-playground#readme",
+  "devDependencies": {
+    "jasmine-node": "^1.16.2"
+  }
 }
