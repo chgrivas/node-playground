@@ -4,7 +4,7 @@
   "description": "A node playground",
   "main": "index.js",
   "scripts": {
-    "test": "jasmine-node spec/greetSpec.js"
+    "test": "jasmine-node spec/*.js"
   },
   "repository": {
     "type": "git",
